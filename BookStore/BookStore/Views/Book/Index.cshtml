@@ -1,0 +1,39 @@
+﻿@model IEnumerable<BookStore.Models.BookViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<div class="row">
+    <div class="col-md-2">
+        <h3>商品分类</h3>
+        <ul>
+            @foreach (var item in (List<Category>)ViewBag.CatList)
+            {
+                <li><a href="/Book/Index/@item.CategoryId">@item.Name</a></li>
+            }
+        </ul>
+    </div>
+    <div class="col-md-10">
+        <h2>商品列表</h2>
+
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                <a href="/Book/Details/@item.BookId">
+                    <div class="col-sm-6 col-md-3"  style="" >
+                        <div>
+                            <img src="@item.ImageUrl" />
+                        </div>
+                        <div>
+                            <h3>@item.BookName</h3>
+                        </div>
+                    </div>
+                </a>
+            }
+        </div>
+        <pager pager-option="ViewBag.PagerOption as MoPagerOption"></pager>
+    </div>
+</div>
+
+
+

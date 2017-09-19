@@ -1,0 +1,17 @@
+﻿@model List<BookViewModel>
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <a href="/Book/Details/@item.BookId">
+            <div class="col-sm-6 col-md-3">
+                <div>
+                    <img src="@item.ImageUrl" />
+                </div>
+                <div>
+                    <h3>@item.BookName</h3>
+                </div>
+            </div>
+        </a>
+    }
+</div>

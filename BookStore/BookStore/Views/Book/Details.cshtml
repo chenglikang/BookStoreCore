@@ -1,0 +1,49 @@
+﻿@model BookStore.Models.BookDetailsViewModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="row">
+    <div class="col-md-3">
+        <img src="@Model.ImageUrl" />
+    </div>
+    <div class="col-md-9">
+        <h2>@Model.BookName</h2>
+        <div>价格：@Model.Price</div>
+        <div>数量：<input type="text" /></div>
+        <div><button>添加到购物车</button></div>
+    </div>
+</div>
+
+<hr />
+<div>
+    <h4>详细信息</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.BookId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.BookId)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.BookName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.BookName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ImageUrl)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ImageUrl)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+        <dt>
+</div>
