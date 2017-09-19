@@ -13125,11 +13125,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alik\\Desktop\\BookStore\\BookStore\\BookStore\\BookStore.csproj",
+      "projectUniqueName": "C:\\Users\\Alik\\Source\\Repos\\BookStoreCore\\BookStore\\BookStore\\BookStore.csproj",
       "projectName": "BookStore",
-      "projectPath": "C:\\Users\\Alik\\Desktop\\BookStore\\BookStore\\BookStore\\BookStore.csproj",
+      "projectPath": "C:\\Users\\Alik\\Source\\Repos\\BookStoreCore\\BookStore\\BookStore\\BookStore.csproj",
       "packagesPath": "C:\\Users\\Alik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alik\\Desktop\\BookStore\\BookStore\\BookStore\\obj\\",
+      "outputPath": "C:\\Users\\Alik\\Source\\Repos\\BookStoreCore\\BookStore\\BookStore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

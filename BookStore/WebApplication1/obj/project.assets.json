@@ -13125,11 +13125,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alik\\Desktop\\BookStore\\BookStore\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "C:\\Users\\Alik\\Source\\Repos\\BookStoreCore\\BookStore\\WebApplication1\\WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "C:\\Users\\Alik\\Desktop\\BookStore\\BookStore\\WebApplication1\\WebApplication1.csproj",
+      "projectPath": "C:\\Users\\Alik\\Source\\Repos\\BookStoreCore\\BookStore\\WebApplication1\\WebApplication1.csproj",
       "packagesPath": "C:\\Users\\Alik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alik\\Desktop\\BookStore\\BookStore\\WebApplication1\\obj\\",
+      "outputPath": "C:\\Users\\Alik\\Source\\Repos\\BookStoreCore\\BookStore\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
