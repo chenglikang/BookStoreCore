@@ -12,9 +12,6 @@ namespace BookStore.Data
         string _connString = "Data Source=.;Initial Catalog=BookStore;Integrated Security=True;";
         public List<BookViewModel> SelectNewBook(int count)
         {
-
-            int i = 10;
-
             List<BookViewModel> list = new List<BookViewModel>();
             string sql = "select Top (@Count) BookId,BookName,ImageUrl from Books order by DateCreated desc";
             using (SqlConnection conn = new SqlConnection(_connString))

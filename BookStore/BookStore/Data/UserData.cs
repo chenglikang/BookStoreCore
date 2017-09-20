@@ -9,6 +9,9 @@ namespace BookStore.Data
 {
     public class UserData
     {
+
+        string _tes = "Hello";
+
         string _connString = "Data Source=.;Initial Catalog=BookStore;Integrated Security=True;";
 
         public User SelectUser(string name,string password)
